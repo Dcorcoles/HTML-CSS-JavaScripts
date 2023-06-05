@@ -1,5 +1,9 @@
 Primero debemos guardar los cambios en local
 
+Si es la primera vez debemos iniciar git:
+git init
+
+los siguientes comando los repetiremos asiduamente
 git status -s
 git add .
 git commit -m "mensaje"
@@ -7,7 +11,7 @@ git commit -m "mensaje"
 
 Para trabajar con el repositorio en la nube, solo la primera vez:
 
-git remote add origin https://github.com/Dcorcoles/Practicando-Git.git
+git remote add origin https://github.com/Dcorcoles/HTML-CSS-JavaScripts.git
 
 Una vez hemos hecho nuestras modificaciones y commits correspondientes ejecutamos el siguiente comando:
 git push -u origin master
